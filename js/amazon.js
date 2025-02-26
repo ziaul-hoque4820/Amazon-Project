@@ -1,3 +1,5 @@
+import { cart } from "../data/cart";
+
 
 //Generate the HTML
 let productsHTML = "";
@@ -58,6 +60,7 @@ document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
 
 //interactive add-to-cart button
+
 document.querySelectorAll('.js-add-to-cart').forEach((button) => {
   button.addEventListener('click', () => {
     const productId = button.dataset.productId;
