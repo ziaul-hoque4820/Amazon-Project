@@ -3,6 +3,9 @@ import { products } from "../data/products.js";
 import { formateCurrency } from "./utils/money.js";
 
 
+console.log(dayjs());
+
+
 let cartSummaryHTML = '';
 
 cart.forEach((cartItem) => {
